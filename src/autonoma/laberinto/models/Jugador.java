@@ -7,7 +7,7 @@ import java.awt.Point;
 /**
  ** Representa al jugador principal del juego con sus propiedades y comportamientos.
  * Maneja el estado de la llave y reproduce sonidos al recogerla.
- * @author salit
+ * @author Salomé C
  */
 public class Jugador extends Personaje{
     /** Indica si el jugador ha recogido la llave */
