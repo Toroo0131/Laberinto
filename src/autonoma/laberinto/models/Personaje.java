@@ -8,7 +8,7 @@ import java.awt.Point;
  *
  * @author Salomé C
  */
-public class Personaje {
+public abstract class Personaje {
     /** Posición actual del personaje */
     protected Point posicion;
     /** Imagen que representa visualmente al personaje */
@@ -33,4 +33,28 @@ public class Personaje {
     public Point getPosicion() {
         return posicion;
     }
+    /**
+     * Establece una nueva posición para el personaje.
+     * 
+     * @param nuevaPosicion Nuevas coordenadas del personaje
+     */
+    public void setPosicion(Point nuevaPosicion) {
+        this.posicion = nuevaPosicion;
+    }
+
+    /**
+     * Obtiene la imagen del personaje.
+     * 
+     * @return Imagen que representa al personaje
+     */
+    public Image getImagen() {
+        return imagen;
+    }
+
+    /**
+     * Método abstracto para mover al personaje en una dirección.
+     * 
+     * @param direccion Dirección del movimiento ("UP", "DOWN", "LEFT", "RIGHT")
+     */
+    public abstract void mover(String direccion);
 }
