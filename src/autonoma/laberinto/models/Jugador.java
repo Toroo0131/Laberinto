@@ -42,15 +42,24 @@ public class Jugador extends Personaje{
         
     }
 
-    @Override
-    public void mover(String direccion) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
-
     /**
      * Mueve al jugador en la dirección especificada.
      * 
      * @param direccion Dirección del movimiento ("UP", "DOWN", "LEFT" o "RIGHT")
      */
+    @Override
+    public void mover(String direccion) {
+        int x = posicion.x;
+        int y = posicion.y;
 
+        switch (direccion) {
+            case "UP": y--; break;
+            case "DOWN": y++; break;
+            case "LEFT": x--; break;
+            case "RIGHT": x++; break;
+        }
+
+        posicion.setLocation(x, y);
+    }
 }
+
