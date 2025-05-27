@@ -5,7 +5,8 @@ import java.awt.Image;
 import java.awt.Point;
 
 /**
- *
+ *Clase abstracta que representa un personaje genérico en el juego.
+ * Define la estructura base para jugadores y enemigos.
  * @author Salomé C
  */
 public abstract class Personaje {
