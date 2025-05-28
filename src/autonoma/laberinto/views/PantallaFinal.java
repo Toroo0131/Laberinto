@@ -1,7 +1,7 @@
 /**
  * Pantalla que se muestra al finalizar el juego, mostrando el resultado y puntaje.
  * 
- * @author Salomé
+ * @author Salomé  C
  */
 package autonoma.Laberinto.views;
 

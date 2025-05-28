@@ -2,7 +2,7 @@
 /**
  * Pantalla principal del juego donde se desarrolla la acción.
  * 
- * @author Salomé
+ * @author Salomé C
  */
 package autonoma.Laberinto.views;
 

@@ -1,7 +1,7 @@
 /**
  * Pantalla principal del menú del juego con opciones para jugar, ver instrucciones, etc.
  * 
- * @author Salomé
+ * @author Salomé C
  */
 package autonoma.Laberinto.views;
 
